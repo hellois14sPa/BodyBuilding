@@ -1,0 +1,911 @@
+.back__link
+{
+   
+        width: 100px;
+        height: auto;
+        padding: 9px;
+        color: white;
+        background-color: #af1b65;
+        position: fixed;
+        top: 0;
+        z-index: 999999;
+        font-weight: bold;
+      animation: back 1s 10000000 linear;
+    font-size: 30px;
+    }
+
+@keyframes back {
+    0%{padding-left: 20px;}
+    100%{color: navy;}
+
+}
+.back__link a
+{
+    color: white;
+    text-decoration: none;
+}
+*{
+    font-family: system-ui;
+    font-style: italic;
+}
+body{
+    background-color: #DDD;
+
+}
+
+.header
+{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/STARRS.jpg');
+    padding-top: 30px ;
+    padding-bottom: 10px ;
+
+}
+.heder_div1 img
+{
+    width: 40%;
+    max-height:100px ;
+    margin-top: -23px;
+
+}
+
+.header_div2 ul li
+{
+    display: inline;
+    margin: 0px 1px;
+  
+    padding: 15px;
+    font-weight: bolder;
+
+    transition: all 0.5s ease-in-out;
+
+}
+#hoi 
+{
+    color: white;
+    font-size: 182;
+    opacity: 1;
+}
+#hoi2 
+{
+    color: white;
+    font-size: 18;
+    opacity: 1;
+}
+#hoi22 
+{
+   opacity: 1;
+   color: white;
+}
+.spo
+{
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+}
+.cola
+{
+    width: 100%;
+    font-size: 28px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.header_div2 ul li:hover
+{
+    cursor: pointer;
+    background-color: darkred;
+    border-radius: 10px;
+    
+}
+.header_div2 ul li:hover a
+{
+    color: white;
+}
+.header_div2 ul li a
+{
+    text-decoration: none;
+    color: wheat;
+    font-size: 19px;
+
+}
+
+
+
+
+.header_div3 ul li a
+{
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+  
+
+}
+.header_div2 ul li a:hover{text-decoration: none;}
+
+
+.header_div3 ul li
+{
+    display: inline;
+    margin: 0px 1px;
+    line-height: 100px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 17px;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.header_div3 ul li:hover
+{
+    cursor: pointer;
+    background-color: darkred;
+    border-radius: 10px;
+    
+}
+.header_div3 ul li:hover a
+{
+    color: white;
+}
+
+
+.header_div3 ul li a:hover{text-decoration: none;}
+
+.image1
+{
+    margin-top: 30px;
+    border: 3px solid darkred;
+    padding: 20px;
+    box-shadow: 5px 5px 15px darkred;
+    background-color:black;
+    color: darkred;
+    font-weight: bolder;
+    border-top-right-radius:25px ;
+
+}
+.image1 p{color: wheat; font-size: 20px; font-weight: 100;}
+.image1 h1
+
+{
+    font-weight: bolder;
+    font-size: 30px;    
+}
+.span_toggel
+{
+    font-size: 50px;
+    color: darkred;
+    margin-top: -13px;
+}
+.span_toggel:hover{cursor: pointer;}
+.sec1
+{
+    margin-top: 80px;
+
+}
+.nm
+{
+    display: none;
+}
+
+.loading-screen
+{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: absolute;
+    z-index: 2399;
+    margin-top: -120px;
+}
+
+#image_Loding
+{
+    width: 50%;
+
+}
+.wido
+{
+    width: 50%;
+    margin: auto;
+
+}
+
+.wido2
+{
+    width: 50%;
+    margin: auto;
+    display: none;
+    
+   
+
+}
+.wido2 h1,h4
+{
+    color: darkred;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.loading-screen input
+{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    color: darkred;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    height:50px ;
+
+}
+.loading-screen .btn2
+{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bolder;
+    background: black;
+    border-color: black;
+    color: darkred;
+    box-shadow: 1px 1px 12px;
+    transition: all 0.7s ease-in-out;
+
+}
+
+.regolar
+{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+    background-color: tomato;
+    display: none;
+}
+
+.loading-screen .btn2:hover
+{
+    background-color: darkred;
+    color: wheat;
+    cursor: pointer;
+
+}
+
+.sec2
+{
+    background-image: url('../images/STARRS.jpg');
+    padding: 30px 0px;
+    margin-top:70px;
+}
+
+/* دة عشان تتحكم فى العرض  */
+::-webkit-scrollbar
+{
+    width: 10px;
+   
+}
+
+/*  دة الخلفية للاسكرول  */
+::-webkit-scrollbar-track
+{
+   
+    background-image: url('../images/STARRS.jpg');
+
+}
+
+/* دة الاسكرول نفسة */
+::-webkit-scrollbar-thumb
+{
+ 
+    border-radius: 60px;
+    background-color: darkred;
+}
+
+.div_fotter ul li a
+{
+    color: wheat;
+    font-size: 20px;
+    text-align: left;
+    text-decoration:none ;
+
+}
+.div_fotter ul li 
+{
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.div_fotter ul li:hover
+{
+    transform: skew(20deg);
+    font-weight: bolder;
+}
+.div_fotter ul #we:hover
+{
+    transform: none;
+    font-weight: normal;
+
+}
+.div_fotter{margin-top: 50px;}
+
+.carousel-inner img{width: 100%; max-height: 400px;}
+.carousel-inner{height: 400px;}
+.slid{margin-top: 80px;}
+.carousel-caption
+{
+    background-color: rgb(0 0 0 / 55%);
+    color:wheat;
+    font-weight: bolder;
+    border-radius: 25px;
+  
+}
+
+.carousel-indicators .active {
+    width: 89px;
+    height: 13px;
+    margin: 0;
+    background-color: darkred;
+}
+
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 89px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#sinup:hover{background-color: black;width: 1px;}
+#sinup2:hover{background-color: black;width: 1px;}
+.btot
+{
+
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    min-width: 10%;
+    border-radius: 12px;
+    font-weight: bolder;
+    color: navy;
+    font-size: 16px;
+    transition: all 0.7s ease-in-out;
+}
+.btot:hover
+{
+    transform: scale(1.1 , 1.1);
+
+}
+.modal-body input
+{
+    margin-top: 20px;
+    height: 50px;
+    background-color: #DDD;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 10px;
+    border-radius: 12px;
+}
+
+.modal-body select
+{
+    margin-top: 20px;
+    height: 50px;
+    background-color: #DDD;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 10px;
+    border-radius: 12px;
+}
+
+.modal-body button
+{
+    margin-top: 20px;
+    height: 50px;
+    background-color: #4cae4c;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 10px;
+    border-radius: 12px;
+    width: 50%;
+    margin: auto;
+    margin-top: 26px;
+    color: white;
+}
+
+
+.modal-dialog
+{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+.pagelodsecond
+{
+    width: 100%;
+    height: 1000px;
+    background-color: darkred;
+    position: absolute;
+    z-index: 99999;
+    margin-top: -150px;
+}
+.show_hide
+{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/STARRS.jpg');
+    display: none;
+}
+
+
+@media (min-width:10px) and (max-width:990px) {
+
+    .modal-dialog
+{
+    width: 90%;
+    margin: auto;
+}
+
+
+}
+
+@media (min-width:10px)  and (max-width:720px){
+    
+#img-1
+{
+    height: 368px;
+   
+}
+.carousel-inner
+{
+    height: 370px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:375px) and (max-width:375px) {
+    
+
+    .slid {
+        margin-top: 78px;
+    }
+
+   .header_div3 ul li a {
+        text-decoration: none;
+        color: wheat;
+        font-size: 17px;
+   }
+
+   .heder_div1 img {
+    width: 50%;
+    max-height: 100px;
+    margin-top: -23px;
+   }
+   
+    .carousel-caption h3
+    {
+        font-size: 18px;
+    }
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 50px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 50px;
+    height: 13px;
+    margin: 0;
+    background-color: darkred;
+
+}
+
+.cola {
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#image_Loding {
+    width: 100%;
+}
+
+
+}
+
+@media (min-width:414px) and (max-width:414px)
+{
+    .carousel-indicators li {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .carousel-indicators .active {
+        width: 50px;
+        height: 13px;
+        margin: 0;
+        background-color: darkred;
+    
+    }
+    #image_Loding {
+        width: 100%;
+    }
+    
+    .loading-screen {
+        width: 100%;
+        height: 956px;
+        background-color: black;
+        position: absolute;
+        z-index: 2399;
+        margin-top: -120px;
+
+    }
+
+
+}
+
+@media (min-width:390px) and (max-width:393px)
+{
+    .slid {
+        margin-top: 75px;
+    }
+
+    .carousel-indicators li {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .carousel-indicators .active {
+        width: 50px;
+        height: 13px;
+        margin: 0;
+        background-color: darkred;
+    
+    }
+
+    .carousel-caption h3
+    {
+        font-size: 20px;
+    }
+    .cola {
+        width: 100%;
+        font-size: 23px;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    #image_Loding {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media (min-width:360px) and (max-width:360px)
+{
+    .carousel-indicators li {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .carousel-indicators .active {
+        width: 50px;
+        height: 13px;
+        margin: 0;
+        background-color: darkred;
+    
+    }
+
+    .carousel-caption h3
+    {
+        font-size: 20px;
+    }
+    .slid {
+        margin-top: 75px;
+    }
+    #image_Loding {
+        width: 100%;
+    }
+    
+
+}
+
+@media (min-width:412px) and (max-width:412px)
+{
+    .carousel-indicators li {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .carousel-indicators .active {
+        width: 50px;
+        height: 13px;
+        margin: 0;
+        background-color: darkred;
+    
+    }
+
+    .carousel-caption h3
+    {
+        font-size: 20px;
+    }
+    .slid {
+        margin-top: 75px;
+    }
+
+    #image_Loding {
+        width: 100%;
+    }
+    
+
+    .loading-screen {
+        width: 100%;
+        height: 966px;
+        background-color: black;
+        position: absolute;
+        z-index: 2399;
+        margin-top: -120px;
+    
+    }
+
+
+}
+
+
+@media (min-width:820px) and (max-width:820px)
+{
+
+    .loading-screen {
+        width: 100%;
+        height: 1234px;
+        background-color: black;
+        position: absolute;
+        z-index: 2399;
+        margin-top: -120px;
+    }
+
+    #image_Loding {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (min-width:280px) and (max-width:280px)
+{
+
+    .carousel-indicators li {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .carousel-indicators .active {
+        width: 50px;
+        height: 13px;
+        margin: 0;
+        background-color: darkred;
+    
+    }
+
+    .carousel-caption h3
+    {
+        display: none;
+    }
+    .carousel-caption{display: none;}
+    .slid {
+        margin-top: 75px;
+    }
+
+    .show_hide {
+        width: 100%;
+        height: 390px;
+        background-image: url(../images/STARRS.jpg);
+        display: none;
+    }
+
+    .heder_div1 img {
+        width: 60%;
+        max-height: 100px;
+        margin-top: -23px;
+    }
+
+    #image_Loding {
+        width: 100%;
+    }
+    
+    .loading-screen input {
+        background-color: black;
+        width: 100%;
+        margin: auto;
+        color: darkred;
+        border-color: black;
+        font-size: 13px;
+        font-weight: bolder;
+        height: 50px;
+    }
+
+    .regolar {
+        color: black;
+        font-size: 11px;
+        text-align: left;
+        font-weight: bolder;
+        background-color: tomato;
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width:1280px) and (max-width:1280px)
+{
+    .slid {
+        margin-top: 84px;
+    }
+    #image_Loding {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:768px)
+
+{
+
+    #image_Loding {
+        width: 100%;
+    }
+
+    .loading-screen {
+        width: 100%;
+        height: 1077px;
+        background-color: black;
+        position: absolute;
+        z-index: 2399;
+        margin-top: -120px;
+    }
+
+
+}
+@media (min-width:912px) and (max-width:912px)
+{
+
+    .loading-screen {
+        width: 100%;
+        height: 1600px;
+        background-color: black;
+        position: absolute;
+        z-index: 2399;
+        margin-top: -120px;
+    }
+
+    #image_Loding {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:540px) and (max-width:540px)
+{
+    
+#image_Loding {
+    width: 100%;
+}
+
+}
+
+
+@media (min-width:1024px) and (max-width:1024px)
+{
+    .slid {
+        margin-top: 80px;
+    }
+
+    #image_Loding {
+        width: 50%;
+    }
+    .regolar {
+        color: black;
+        font-size: 15px;
+        text-align: left;
+        font-weight: bolder;
+        background-color: tomato;
+        display: none;
+    }
+    
+
+}
+
+@media (min-width:10px) and (max-width:620px)
+{
+    
+
+#image_Loding {
+    width: 100%;
+}
+}
